@@ -1,0 +1,30 @@
+#root {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 2rem;
+  text-align: center;
+  background-color: var(--primary-background);
+  overflow: hidden;
+}
+
+
+:root{
+  --primary-background: #FFF6ED;
+  --primary500: #D3620B;
+  --accent500: #C4FCF0
+
+}
+
+
+.main{
+  padding: 20px;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
