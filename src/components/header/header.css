@@ -1,0 +1,66 @@
+
+
+
+header {
+    width: 100vw;
+    height: 10vh;
+    /* margin-top: 3vh; */
+    display: flex;
+    align-items: flex-start;
+}
+
+/* LOGO */
+
+.logo{
+    flex-basis: 30%;
+    padding-left: 20;
+    height: 10vh;
+    /* background-color: black; */
+}
+.logo img{
+    width: 8vw;
+    height:auto;
+    margin-top: -3vh;
+    /* border: 1px solid #000; */
+}
+
+/* NAVIGATION MENU */
+.navbar {
+    padding: 0;
+    display: flex;
+    flex-basis: 60%;
+    max-height: 10vh;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+ul{
+    margin-top: 0;
+}
+ul li{
+    display: inline-block;
+    min-width: 5vw;
+    margin: 1vw;
+}
+ul li a{
+    text-decoration: none;
+    color: var(--dark);
+    font-weight: 400;
+    padding: 1vh 1vw 1.5vh 1vw
+}
+
+ul li a:hover{
+    color: white;
+    background-color: var(--dark);
+    border-radius: 3px;
+}
+
+/* AUTH BUTTONS */
+
+.auth-buttons{
+    flex-basis: 30%;
+    display: flex;
+    justify-content:center;
+    /* background-color: red; */
+    height: 10vh;
+    
+}
