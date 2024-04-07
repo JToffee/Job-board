@@ -2,18 +2,31 @@
   width: 100vw;
   min-height: 100vh;
   margin: 0;
-  padding: 0.5rem;
+  padding: 0;
+  padding-top: 0.5rem;
   text-align: center;
   background-color: var(--primary-background);
   overflow: hidden;
-}
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 
+}
+::-webkit-scrollbar {
+  display: none;
+}
 
 :root{
   --primary-background: #FFF6ED;
   --primary500: #D3620B;
-  --accent500: #C4FCF0;
-  --dark: #000
+  --accent1500: #b8fced;
+  --accent2300: #faeec6 ;
+  --accent3300: #93ebb0;
+  --dark: #000;
+  --neutral500: #939593; 
+  --neutral300: #DFE0DF;
+  --neutral200: #eaede8;
 }
 
 
